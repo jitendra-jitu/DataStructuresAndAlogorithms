@@ -49,5 +49,12 @@ public class Main {
 
 
 
-// time complexity of O(n^2) 
+
+// Time Complexity Analysis of Selection Sort:
+// Best-case: O(n^2), best case occurs when the array is already sorted. (where n is the number of integers in an array)
+// Average-case: O(n^2), the average case arises when the elements of the array are in a disordered or random order, without a clear ascending or descending pattern.
+// Worst-case: O(n^2), The worst-case scenario arises when we need to sort an array in ascending order, but the array is initially in descending order.
+
+
+///
 // and a space complexity of O(1) 
