@@ -1,4 +1,4 @@
-package BubbleSort;
+package Algorithm3_BubbleSort;
 
 public class Main {
 

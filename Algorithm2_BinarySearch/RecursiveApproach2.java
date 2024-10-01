@@ -1,5 +1,6 @@
-// package BinarySearch;
-// import java.util.Arrays;
+package Algorithm2_BinarySearch;
+
+// ickmport java.util.Arrays;
 import java.util.Scanner;
 
 class RecursiveApproach2 {
@@ -11,8 +12,8 @@ class RecursiveApproach2 {
             if(num==arr[mid]){
                 return mid;
             }
-            else if(low==high){
-                return -1;
+            else if (low > high) {
+                return -1; 
             }
             else if(num>arr[mid]){
                 return Findindex(arr,num,mid+1,high);

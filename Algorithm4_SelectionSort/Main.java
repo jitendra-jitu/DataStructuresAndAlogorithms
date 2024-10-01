@@ -1,4 +1,4 @@
-package SelectionSort;
+package Algorithm4_SelectionSort;
 
 public class Main {
 

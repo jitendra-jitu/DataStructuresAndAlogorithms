@@ -1,4 +1,4 @@
-package InsertionSort;
+package Algorithm5_InsertionSort;
 
 public class Main {
 

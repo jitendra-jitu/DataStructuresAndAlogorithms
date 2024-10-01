@@ -1,5 +1,4 @@
-
-import java.util.Arrays;
+package Algorithm2_BinarySearch;
 
 class IterativeApproach1 {
      
@@ -27,12 +26,13 @@ class IterativeApproach1 {
         
         int arr[]={2,4,6,8,9};
         int num=4;
-        if(BinarySearchAlgorithm(arr,num)==1){
-            System.out.println(num+" is found at index : "+ Arrays.asList(arr).indexOf(num));
-
-        }
-        else{
-            System.out.println(num+"not found..!!");
+        
+        int result = BinarySearchAlgorithm(arr, num);
+    
+        if (result != -1) {
+            System.out.println(num + " is found at index: " + result);
+        } else {
+            System.out.println(num + " not found..!!");
         }
         
     }
