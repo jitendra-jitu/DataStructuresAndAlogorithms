@@ -22,6 +22,7 @@ cd DSA-Java-Python
 
 
 ##Prerequisites
+---------------
 
 Java Development Kit (JDK) version 8 or higher
 Python 3.x
@@ -29,6 +30,7 @@ An IDE or text editor of your choice (e.g., IntelliJ IDEA, Eclipse, VS Code for 
 
 
 ##Data Structures
+------------------
 
 This repository includes implementations of the following data structures in both Java and Python:
 Arrays
@@ -45,6 +47,7 @@ Graphs
 You can find the implementation of each data structure in their respective folders, labeled as java/ and python/.
 
 #Algorithms
+-----------
 
 This repository includes implementations of various algorithms, categorized as follows:
 
@@ -66,6 +69,7 @@ Dynamic Programming
 Each algorithm is implemented in both Java and Python with explanations and comments for better understanding.
 
 ##Usage
+-------
 
 
 #Java
@@ -92,10 +96,12 @@ python merge_sort.py
 Feel free to modify and experiment with the code to suit your learning needs.
 
 ##Contributing
+--------------
 
 Contributions are welcome! If you have suggestions for improvements or additional algorithms or data structures to include, please fork the repository and submit a pull request.
 
 ##Fork the repository
+---------------------
 
 Create a new branch (git checkout -b feature-branch)
 Make your changes and commit them (git commit -m 'Add new feature')
@@ -103,6 +109,7 @@ Push to the branch (git push origin feature-branch)
 Open a pull request
 
 ##License
+---------
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
