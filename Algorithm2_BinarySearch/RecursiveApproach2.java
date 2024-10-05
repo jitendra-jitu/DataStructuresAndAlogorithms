@@ -1,55 +1,57 @@
 package Algorithm2_BinarySearch;
 
-// ickmport java.util.Arrays;
 import java.util.Scanner;
 
 class RecursiveApproach2 {
 
-    public static int Findindex(int[] arr,int num,int low, int high) {
-    
-        int mid=(low+high)/2;
+    public static int Findindex(int[] arr, int num, int low, int high) {
 
-            if(num==arr[mid]){
-                return mid;
-            }
-            else if (low > high) {
-                return -1; 
-            }
-            else if(num>arr[mid]){
-                return Findindex(arr,num,mid+1,high);
-            }
-            else{
-                return Findindex(arr,num,low,mid-1 );
-            }
+        // Base case: Number not found... stop the Recursion!!
+        if (low > high) {
+            return -1;
+        }
+
+        int mid = (low + high) / 2;
+
+        // Base case: Number found
+        if (num == arr[mid]) {
+            return mid;
+        }
+
+        // Recur on the right half
+        else if (num > arr[mid]) {
+            return Findindex(arr, num, mid + 1, high);
+        }
+        
+        // Recur on the left half
+        else {
+            return Findindex(arr, num, low, mid - 1);
+        }
     }
 
     public static void main(String[] args) {
 
-        int arr[]={2,4,6,8,9,10};
+        int arr[] = { 2, 4, 6, 8, 9, 10 };
 
-        Scanner sc=new Scanner(System.in);
-        System.out.print("enter the value to search in arr");
-        int num=sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value to search in arr: ");
+        int num = sc.nextInt();
 
-        int low=0;
-        int high=arr.length-1,mid;
+        int low = 0;
+        int high = arr.length - 1;
 
-        int result=Findindex(arr,num,low,high);
+        int result = Findindex(arr, num, low, high);
 
-        if(result!=-1){
-            System.out.println("number is found at index :"+result);
-        }
-        else{
+        if (result != -1) {
+            System.out.println("Number is found at index: " + result);
+        } else {
             System.out.println("Given Number is not found..!!");
         }
-    }
+
+        sc.close(); 
 }
 
-
-
-// Aspect	Complexity
+// Aspect Complexity
 // ---------------------
-// Time Complexity	O(log n)
-// Space Complexity	O(log n)
-
-    
+// Time Complexity O(log n)
+// Space Complexity O(log n) due to recursion depth
