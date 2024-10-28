@@ -22,6 +22,7 @@ public class Main {
 
     }
 
+
     // MergeSort Algorithm
     private static void MergeSort(int[] arr, int left, int right) {
 
@@ -33,10 +34,10 @@ public class Main {
             MergeSort(arr, mid + 1, right);
 
             Merge(arr, left, mid, right);
-
         }
-
     }
+
+
 
     // Method that joins the splited arrays after sorting in LIFO order
     private static void Merge(int[] arr, int left, int mid, int right) {

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc39bfe5-6393-4595-9fed-f210ace79992" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic1-LinearSearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic2_BinarySearch/IterativeApproach1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic2_BinarySearch/RecursiveApproach2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic3_BubbleSort/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic3_BubbleSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic4_SelectionSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic4_SelectionSort/implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic5_InsertionSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic6_QuickSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic7_MergeSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Topic7_MergeSort/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm1-LinearSearch/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm2_BinarySearch/IterativeApproach1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm2_BinarySearch/RecursiveApproach2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm3_BubbleSort/Implementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm3_BubbleSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm4_SelectionSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm4_SelectionSort/implementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm5_InsertionSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm6_QuickSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm7_MergeSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm7_MergeSort/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2n9nIHFEPixzuIZZwLNR4wShDBh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CollectionImplementation.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gudel/OneDrive/Documents/DataStructuresAndAlgorithms"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc39bfe5-6393-4595-9fed-f210ace79992" name="Changes" comment="" />
+      <created>1728394079592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728394079592</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package Algorithm2_BinarySearch;
+package Topic2_BinarySearch;
 
 class IterativeApproach1 {
 
