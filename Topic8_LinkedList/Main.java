@@ -1,6 +1,6 @@
 package Topic8_LinkedList;
 
-import java.util.LinkedList;
+// import java.util.LinkedList;
 
 class Node {
 
@@ -16,6 +16,24 @@ class Node {
 class LinkedList {
 
     Node head = null;
+
+
+    // public void create(int data){
+
+    //     Node newNode = new Node(data);
+
+    //     if(head==null){
+    //         head=newNode;
+    //     }
+    //     else{
+    //         Node current =head;
+    //         while (head.next!=null) { 
+    //             current=current.next;
+    //         }
+    //         current.next=newNode;
+    //     }
+
+    // }
 
     public void add(int data) {
         Node newNode = new Node(data);
@@ -38,6 +56,32 @@ class LinkedList {
         head=newnode;
 
     }
+
+    public void MiddleAdd(int data, int position) {
+        Node newNode = new Node(data);
+        Node current = head;
+    
+      
+        if (position == 1 || head == null) {
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+
+        for (int i = 1; i < position - 1; i++) {
+            if (current == null || current.next == null) {
+                System.out.println("Position out of bounds");
+                return;
+            }
+            current = current.next;
+        }
+    
+
+        newNode.next = current.next;
+        current.next = newNode;
+        
+    }
+    
 
     public void deleteNode(int data) {
 
@@ -98,6 +142,12 @@ public class Main {
 
         System.out.println("Deleting Node value-4");
         list.deleteNode(4);
+        list.printValues();
+        System.out.println();
+
+
+        System.out.println("inserting 4  Node at position 2");
+        list.MiddleAdd(4, 2);
         list.printValues();
         System.out.println();
 
