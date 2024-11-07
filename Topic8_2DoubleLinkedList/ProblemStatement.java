@@ -61,7 +61,7 @@ class DoubleLinkedList {
     }
 }
 
-public class Main {
+public class ProblemStatement {
     public static void main(String[] args) {
         DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
 

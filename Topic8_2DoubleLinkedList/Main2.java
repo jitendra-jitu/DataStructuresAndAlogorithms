@@ -125,12 +125,13 @@ class DoubleLinkedList {
 
         Node current = start;
         for (int i = 0; i < position; i++) {
-            if (current.next == null) {
-                System.out.println("Position out of bounds...");
-                return;
-            }
-            current = current.next;
+        if (current == null || current.next == null) {
+            System.out.println("Position out of bounds...");
+            return;
         }
+        current = current.next;
+    }
+
 
         current.previous.next = current.next;
         if (current.next != null) {
@@ -150,6 +151,7 @@ class DoubleLinkedList {
         System.out.println();
     }
 }
+
 
 public class Main2 {
 
